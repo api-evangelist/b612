@@ -1,0 +1,31 @@
+# B612
+
+> B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. It offers a real-time beauty camera, AR stickers and scene effects, creator-published filters, and photo and video editing. B612 is an end-user mobile product, not an API provider.
+
+## API surface
+
+- No public API. B612 publishes no developer portal, no API documentation, no API reference, no SDKs, no CLI, no webhooks, and no machine-readable API artifacts (OpenAPI, AsyncAPI, JSON Schema) on any of its web properties as of 2026-07-20.
+- No /.well-known/ discovery documents are served on b612.snow.me, snow.me, or kajicam.com. See well-known/b612-well-known.yml for the probe record.
+
+## Web properties
+
+- [B612 (global site)](https://b612.snow.me/): Product site for the global B612 app.
+- [B612咔叽 (China site)](https://kajicam.com/): Product site for the mainland China edition.
+- [SNOW Corporation](https://snowcorp.com/en/): Corporate site of the publisher.
+
+## Applications
+
+- [B612 on the Apple App Store](https://apps.apple.com/app/b612/id904209370): iOS distribution, first released 2014-08-12.
+- [B612 on Google Play](https://play.google.com/store/apps/details?id=com.linecorp.b612.android): Android distribution.
+
+## Legal and support
+
+- [Terms of Use](https://b612.snow.me/help/termsOfUse?lang=en)
+- [Privacy Policy](https://b612.snow.me/help/privacyPolicy?lang=en)
+- [Contact (B612咔叽)](https://kajicam.com/index_contact): support@b612.net
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/apis.yml): APIs.json profile for B612.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/security/b612-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF, and DMARC posture.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/well-known/b612-well-known.yml): Recorded results of the /.well-known/ discovery probe.

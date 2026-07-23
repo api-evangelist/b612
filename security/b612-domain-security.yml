@@ -1,0 +1,25 @@
+generated: '2026-07-20'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: b612.snow.me
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Dec  5 23:59:59 2026 GMT
+  hsts: false
+- host: kajicam.com
+  https: true
+  tls_version: TLSv1.2
+  cert_expires: Oct  2 23:59:59 2026 GMT
+  hsts: false
+domains:
+- domain: snow.me
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: false
+- domain: kajicam.com
+  dnssec: false
+  caa: []
+  spf: false
+  dmarc: false

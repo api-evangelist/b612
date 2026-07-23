@@ -1,22 +1,78 @@
 aid: b612
 name: B612
-description: 'B612 is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: technology. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'B612 is a consumer selfie and beauty camera application for iOS and Android, published
+  globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information
+  Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects,
+  user-created and creator-published filters, and photo and video editing tools, and has been distributed
+  through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than
+  an API provider: as of this enrichment pass the company publishes no developer portal, no public API
+  documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://b612.snow.me/statics/home/img/facebook_lp.png
 url: https://raw.githubusercontent.com/api-evangelist/b612/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - hongshan
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: consumer-mobile-app-no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Technology
+- Photography
+- Mobile Applications
+- Camera
+- Consumer Applications
+- Video Editing
+- Augmented Reality
+- China
+- South Korea
 apis: []
+common:
+- type: DomainSecurity
+  url: security/b612-domain-security.yml
+- type: LLMsTxt
+  url: llms/b612-llms.txt
+- type: Website
+  name: B612 (global)
+  url: https://b612.snow.me/
+- type: Website
+  name: B612咔叽 (China)
+  url: https://kajicam.com/
+- type: TermsOfService
+  url: https://b612.snow.me/help/termsOfUse?lang=en
+- type: PrivacyPolicy
+  url: https://b612.snow.me/help/privacyPolicy?lang=en
+- type: Support
+  name: B612咔叽 contact (support@b612.net)
+  url: https://kajicam.com/index_contact
+- type: Company
+  name: SNOW Corporation
+  url: https://snowcorp.com/en/
+- type: Application
+  name: B612 on the Apple App Store
+  url: https://apps.apple.com/app/b612/id904209370
+- type: Application
+  name: B612 on Google Play
+  url: https://play.google.com/store/apps/details?id=com.linecorp.b612.android
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
