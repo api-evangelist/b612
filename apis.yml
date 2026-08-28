@@ -7,6 +7,17 @@ description: 'B612 is a consumer selfie and beauty camera application for iOS an
   through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than
   an API provider: as of this enrichment pass the company publishes no developer portal, no public API
   documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
