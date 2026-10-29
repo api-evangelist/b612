@@ -64,24 +64,82 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW
-Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology
-(Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects,
-user-created and creator-published filters, and photo and video editing tools, and has been distributed
-through the Apple App Store and Google Play since 2014.
+B612 is a consumer selfie and beauty camera application for iOS and Android, published globally by SNOW Corporation and operated in mainland China as B612咔叽 (B612 Kaji) by Yiruike Information Technology (Beijing) Co., Ltd. The app combines a real-time beauty camera, AR stickers and scene effects, user-created and creator-published filters, and photo and video editing tools, and has been distributed through the Apple App Store and Google Play since 2014. B612 is a mobile end-user product rather than an API provider: as of this enrichment pass the company publishes no developer portal, no public API documentation, no SDKs, and no machine-readable API artifacts on any of its web properties.
 
-Backed by: hongshan
+**Areas:** Company · Technology · Photography · Mobile App · Camera · Consumer Applications · Video Editing · Augmented Reality · China · South Korea
 
-## API surface
+## B612 on APIs.io
 
-B612 is a mobile end-user product rather than an API provider. As of the 2026-07-20 enrichment pass it
-publishes no developer portal, no API documentation or reference, no SDKs, no CLI, no webhooks, and no
-machine-readable API artifacts. No `/.well-known/` discovery documents are served on any B612 host.
+Everything profiled for B612 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/b612/](https://apis.io/providers/b612/)** — or go straight to one of the APIs or properties below.
 
-## Artifacts in this repo
+### Published properties
 
-| Artifact | Path | Method |
-|---|---|---|
-| Domain security posture | `security/b612-domain-security.yml` | probed |
-| Well-known discovery probe | `well-known/b612-well-known.yml` | searched (no documents found) |
-| llms.txt | `llms/b612-llms.txt` | generated |
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [B612 Domain Security](https://apis.io/security/b612/b612-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://b612.snow.me/)
+- [Support](https://kajicam.com/index_contact)
+- [Terms of service](https://b612.snow.me/help/termsOfUse?lang=en)
+- [Privacy policy](https://b612.snow.me/help/privacyPolicy?lang=en)
+
+## API Evangelist rating
+
+**Kin Score 10.5** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 4.8 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/b612/](https://apis.io/providers/b612/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for B612: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/b612/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
